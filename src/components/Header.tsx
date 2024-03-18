@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="  text-white max-w-screen-xl mx-auto pt-5 px-4 md:px-10 xl:px-0 relative">
+    <header className="  text-white max-w-screen-xl mx-auto pt-5 px-4 md:px-10 xl:px-0 relative ">
       <Image
         src={leftwaves}
         alt="left-waves"

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { manrope } from "@/app/Fonts";
+import { manrope, fraunces } from "@/app/Fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={manrope.className}>{children}</body>
+      <body className={fraunces.className}>{children}</body>
     </html>
   );
 }
